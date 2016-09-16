@@ -8,6 +8,9 @@ namespace Banco
     public class Conta
     {
         //propriedades ou atributos
+        public int Id { get; set; }
+        public int Numero { get; set; }
+        public decimal Saldo { get; set; }
 
         //métodos ou ações
     }

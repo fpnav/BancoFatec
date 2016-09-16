@@ -11,7 +11,6 @@ namespace Banco
 {
     public partial class CadastroCliente : Form
     {
-        public List<Cliente> ClientesList { get; set; }
 
         public CadastroCliente()
         {
@@ -37,8 +36,12 @@ namespace Banco
         private void CadastroCliente_FormClosing(object sender, FormClosingEventArgs e)
         {
             Form1 form1 = new Form1();
-            //Form1.Clientes = ClientesList;
             form1.Show();
+        }
+
+        private void CadastroCliente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

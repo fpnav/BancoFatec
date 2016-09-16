@@ -1,6 +1,6 @@
 ﻿namespace Banco
 {
-    partial class CadastroCliente
+    partial class CadastroConta
     {
         /// <summary>
         /// Required designer variable.
@@ -39,9 +39,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(257, 115);
+            this.button1.Location = new System.Drawing.Point(116, 137);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 64);
+            this.button1.Size = new System.Drawing.Size(83, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,56 +50,56 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 69);
+            this.label1.Location = new System.Drawing.Point(16, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(16, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Nome";
+            this.label1.Text = "Id";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 132);
+            this.label2.Location = new System.Drawing.Point(16, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Idade";
+            this.label2.Text = "Numero";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 19);
+            this.label3.Location = new System.Drawing.Point(16, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(16, 13);
+            this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Id";
+            this.label3.Text = "Saldo";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 12);
+            this.textBox1.Location = new System.Drawing.Point(99, 15);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(51, 20);
-            this.textBox1.TabIndex = 5;
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(77, 66);
+            this.textBox2.Location = new System.Drawing.Point(99, 53);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(300, 20);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(76, 125);
+            this.textBox3.Location = new System.Drawing.Point(99, 88);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(52, 20);
-            this.textBox3.TabIndex = 7;
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 6;
             // 
-            // CadastroCliente
+            // CadastroConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 194);
+            this.ClientSize = new System.Drawing.Size(208, 193);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -107,10 +107,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "CadastroCliente";
-            this.Text = "CadastroCliente";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CadastroCliente_FormClosing);
-            this.Load += new System.EventHandler(this.CadastroCliente_Load);
+            this.Name = "CadastroConta";
+            this.Text = "CadastroConta";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CadastroConta_FormClosing);
+            this.Load += new System.EventHandler(this.CadastroConta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
